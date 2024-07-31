@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int diaDeLaSemana;
+
+    cout << "Introduce un número del 1 al 7 para el día de la semana: ";
+    cin >> diaDeLaSemana;
+
+    switch (diaDeLaSemana) {
+        case 1:
+            cout << "Lunes";
+            break;
+        case 2:
+            cout << "Martes";
+            break;
+        case 3:
+            cout << "Miércoles";
+            break;
+        case 4:
+            cout << "Jueves";
+            break;
+        case 5:
+            cout << "Viernes";
+            break;
+        case 6:
+            cout << "Sábado";
+            break;
+        case 7:
+            cout << "Domingo";
+            break;
+        default:
+            cout << "Número inválido. Debe estar entre 1 y 7.";
+            break;
+    }
+
+    return 0;
+}
